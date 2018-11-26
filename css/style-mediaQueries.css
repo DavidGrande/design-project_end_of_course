@@ -1,0 +1,265 @@
+@media screen and (max-width: 1250px){
+	nav > label ul{
+		width: 100%;
+	}
+	#estudios{
+		display: block;
+	}
+	.estudio{
+		width: 80%;
+	}
+	.estudio:first-child{
+		margin-bottom: 1em;
+	}
+	#trabajos div{
+		width: 40%;
+	}
+	#apps-web header *{
+		padding-left: 10%;
+	}
+}
+
+@media screen and (max-width: 850px){
+	nav > label ul li:first-child{
+		line-height: 25px;
+	}
+	#header-primary{
+		height: 360px;
+	}
+	#header-primary div{
+		top: 65px;
+		margin: 0 auto;
+		left: 0;
+	}
+	#datos-personales header img{
+		height: 200px;
+		width: 200px;
+		margin-top: -100px;
+		border-radius: 100px;
+	}
+	#apps-web header *{
+		padding-left: 0;
+	}
+	#apps-web header, #apps-web article label {
+	    width: 100%;
+	    display: block;
+	}
+}
+
+@media screen and (max-width: 700px){
+	nav > label span {
+		display: inline-block;
+	}
+	nav > p {
+		display:inline-block;
+	}
+	nav > label ul {
+		display: none;
+	}
+	nav #menu-btn:checked + label ul{
+		display: block;
+	}
+	nav #menu-btn:checked + label li{
+		display: block;
+		background-color: #000000b3;
+		white-space: nowrap;
+		overflow: hidden;
+    	width: 100%;
+	}
+	nav #menu-btn:checked + label li:nth-child(1){
+		animation-name: menu;
+    	animation-duration: 0.5s;
+    	animation-iteration-count: 1;
+	}
+	nav #menu-btn:checked + label li:nth-child(2){
+		animation-name: menu;
+    	animation-duration: 0.75s;
+    	animation-iteration-count: 1;
+	}
+	nav #menu-btn:checked + label li:nth-child(3){
+		animation-name: menu;
+    	animation-duration: 1s;
+    	animation-iteration-count: 1;
+	}
+	nav #menu-btn:checked + label li:nth-child(4){
+		animation-name: menu;
+    	animation-duration: 1.25s;
+    	animation-iteration-count: 1;
+	}
+	nav #menu-btn:checked + label li:nth-child(5){
+		animation-name: menu;
+    	animation-duration: 1.5s;
+    	animation-iteration-count: 1;
+	}
+	@keyframes 'menu' {
+	    0% {
+	        width: 0%;
+	    }
+	    100% {
+	        width: 100%;
+	    }
+	}
+	@-webkit-keyframes 'menu' {
+	    0% {
+	        width: 0%;
+	    }
+	    100% {
+	        width: 100%;
+	    }
+	}
+	nav #menu-btn:checked + label li:first-child{
+		margin-top: 50px;
+		line-height: 50px;
+	}
+	#header-primary{
+		height: 200px;
+	}
+	#header-primary div{
+		display: none;
+	}
+	.estudio{
+		width: 95%;
+	}
+	.estudio p{
+		padding: 0.5em;
+	}
+	.estudio img{
+		display: none;
+	}
+	#trabajos{
+		display: block;
+	}
+	#trabajos div{
+		display: inline-flex;
+		width: 95%;
+	}
+	#trabajos div:first-child{
+		margin-bottom: 1em;
+	}
+	#trabajos img,
+	#trabajos h3{
+		width: 20%;
+		height: 100%;
+		margin: auto;
+	}
+	#trabajos p{
+		width: 60%;
+	}
+	#conocimientos article{
+		display: inline-block;
+	}
+	#conocimientos article div{
+		width: 100% !important;
+	}
+	#conocimientos article p{
+		width: 30%;
+	}
+	.progressBar{
+		width: 70%;
+	}
+	#conoceme label{
+		margin: 2px 10px;
+		top: 0;
+		box-shadow: none;
+	}
+	#btn-video:checked ~ div{
+		display: none;
+	}
+
+	#contacto > div{
+		display: none;
+	}
+
+	#contacto > article{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#conoceme label{
+		padding: 5px;
+		top: 55px;
+	}
+	body{
+		font-size: 12px;
+	}
+	nav{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 450px){
+
+	#apps-web{
+		text-align: center;
+	}
+	#apps-web label div:first-child{
+		padding: 0 1em;
+	}
+
+	#apps-web img {
+		width: 100%;
+		height: auto;
+	}
+}
+@media screen and (max-width: 400px){
+	.estudio p{
+		font-size: 0.75em;
+	}
+	#trabajos div{
+		display: block;
+	}
+	#trabajos div h3,
+	#trabajos div p{
+		width: 100%;
+	}
+
+	#trabajos div p{
+		margin: 0.5em 0;
+	}
+
+	#trabajos div img{
+		width: 40%;
+	}
+	#conoceme p,
+	#conoceme h2{
+		text-align: center;
+	}
+}
+
+
+@media screen and (min-width: 700px){
+	#btn-video:checked + label{
+		color: #0000001a;
+		background: rgba(255, 255, 255, 0.2);
+		border: 3px outset #b4b4b433;
+		animation-name: video-boton;
+	    animation-duration: 2s;
+	    animation-iteration-count: 1;
+	}
+
+	@keyframes 'video-boton' {
+	    0% {
+	        background: rgba(255, 255, 255, 0.69);
+			color: #000000;
+			border: 3px outset #b4b4b4ff;
+	    }
+	    100% {
+	        color: #0000001a;
+			background: rgba(255, 255, 255, 0.2);
+			border: 3px outset #b4b4b433;
+	    }
+	}
+
+	@-webkit-keyframes 'video-boton' {
+	    0% {
+	        background: rgba(255, 255, 255, 0.69);
+			color: #000000;
+			border: 3px outset #b4b4b4ff;
+	    }
+	    100% {
+	        color: #0000001a;
+			background: rgba(255, 255, 255, 0.2);
+			border: 3px outset #b4b4b433;
+	    }
+	}
+}

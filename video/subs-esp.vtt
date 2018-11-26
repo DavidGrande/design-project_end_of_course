@@ -1,0 +1,454 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:01.979
+cuando <font color="#E5E5E5">construimos productos electrónicos a mano </font><font color="#CCCCCC">, </font>
+
+2
+00:00:01.979 --> 00:00:04.589
+<font color="#E5E5E5">usualmente usan componentes de orificio pasante </font>
+
+3
+00:00:04.589 --> 00:00:07.200
+estos <font color="#E5E5E5">son relativamente grandes y fáciles de </font>
+
+4
+00:00:07.200 --> 00:00:10.349
+<font color="#CCCCCC">manejar, </font><font color="#E5E5E5">pero cuando una máquina construye </font>
+
+5
+00:00:10.349 --> 00:00:13.320
+electrónica <font color="#E5E5E5">utiliza el montaje de superficie </font>
+
+6
+00:00:13.320 --> 00:00:16.650
+componentes <font color="#CCCCCC">a primera vista </font><font color="#E5E5E5">estos pueden </font>
+
+7
+00:00:16.650 --> 00:00:18.359
+<font color="#CCCCCC">parece un poco inmanejable </font>
+
+8
+00:00:18.359 --> 00:00:20.580
+a la <font color="#E5E5E5">mano humana pero con </font><font color="#CCCCCC">poco </font>
+
+9
+00:00:20.580 --> 00:00:24.000
+paciencia y <font color="#E5E5E5">magnificación tú también puedes </font>
+
+10
+00:00:24.000 --> 00:00:27.289
+trabajar como una máquina
+
+11
+00:00:35.480 --> 00:00:39.989
+SMD <font color="#E5E5E5">o dispositivos de montaje superficial pueden </font><font color="#CCCCCC">ser </font>
+
+12
+00:00:39.989 --> 00:00:43.020
+poco complicado <font color="#CCCCCC">de soldar, pero hacerlo lo hará </font>
+
+13
+00:00:43.020 --> 00:00:44.969
+te <font color="#E5E5E5">permite usar mucha tecnología </font>
+
+14
+00:00:44.969 --> 00:00:47.070
+eso no está <font color="#CCCCCC">disponible en el orificio pasante </font>
+
+15
+00:00:47.070 --> 00:00:49.800
+paquetes <font color="#E5E5E5">también puede guardar un poco </font>
+
+16
+00:00:49.800 --> 00:00:53.280
+del espacio <font color="#E5E5E5">a bordo de diseño por lo que la mayoría </font>
+
+17
+00:00:53.280 --> 00:00:55.289
+variable obvia que estamos tratando <font color="#E5E5E5">aquí </font>
+
+18
+00:00:55.289 --> 00:00:58.079
+<font color="#CCCCCC">es el tamaño común de componentes pasivos como </font>
+
+19
+00:00:58.079 --> 00:01:00.750
+resistencias y condensadores <font color="#E5E5E5">vienen en un rango </font>
+
+20
+00:01:00.750 --> 00:01:04.500
+<font color="#E5E5E5">de tamaños de </font><font color="#CCCCCC">la relativamente grande 1206 </font>
+
+21
+00:01:04.500 --> 00:01:07.650
+<font color="#E5E5E5">especifique hasta el parpadeo que podría </font>
+
+22
+00:01:07.650 --> 00:01:12.680
+se pierda <font color="#E5E5E5">Oh tamaño 402 y aún más pequeño </font>
+
+23
+00:01:12.680 --> 00:01:15.600
+<font color="#E5E5E5">montaje superficial ICS vienen en una variedad de </font>
+
+24
+00:01:15.600 --> 00:01:20.340
+<font color="#E5E5E5">paquetes como este </font><font color="#CCCCCC">aquí, así que </font><font color="#E5E5E5">IC chip o </font>
+
+25
+00:01:20.340 --> 00:01:27.540
+este <font color="#CCCCCC">chip QFP o incluso este pequeño SOT </font>
+
+26
+00:01:27.540 --> 00:01:29.540
+transistor
+
+27
+00:01:29.540 --> 00:01:32.369
+todos estos tienen cables que sobresalen, <font color="#E5E5E5">pero </font>
+
+28
+00:01:32.369 --> 00:01:34.770
+también encontrarás paquetes IC que solo
+
+29
+00:01:34.770 --> 00:01:38.490
+exponer contactos planos <font color="#E5E5E5">como este </font><font color="#CCCCCC">chip qfn </font>
+
+30
+00:01:38.490 --> 00:01:41.189
+estos pueden <font color="#CCCCCC">ser un poco más fáciles de </font>
+
+31
+00:01:41.189 --> 00:01:43.170
+<font color="#CCCCCC">manejar </font><font color="#E5E5E5">ya que no tienen pasadores para doblar </font>
+
+32
+00:01:43.170 --> 00:01:44.580
+<font color="#E5E5E5">accidentalmente </font>
+
+33
+00:01:44.580 --> 00:01:46.920
+Entonces, ¿cómo <font color="#E5E5E5">conseguimos estas pequeñas cosas </font>
+
+34
+00:01:46.920 --> 00:01:51.120
+soldado de forma segura a una PCB <font color="#E5E5E5">bien primero </font>
+
+35
+00:01:51.120 --> 00:01:52.860
+necesita <font color="#CCCCCC">las herramientas adecuadas </font><font color="#E5E5E5">para el trabajo </font>
+
+36
+00:01:52.860 --> 00:01:57.600
+un buen hierro con una punta fina y una
+
+37
+00:01:57.600 --> 00:02:00.390
+esponja o malla para limpiarla bien
+
+38
+00:02:00.390 --> 00:02:02.400
+pinzas de punto <font color="#CCCCCC">me gusta tener ambos </font>
+
+39
+00:02:02.400 --> 00:02:06.300
+<font color="#E5E5E5">variantes angulares y rectas </font><font color="#CCCCCC">una lupa </font>
+
+40
+00:02:06.300 --> 00:02:10.500
+lazo o una <font color="#E5E5E5">soldadura de la mecha de la soldadura del visera </font>
+
+41
+00:02:10.500 --> 00:02:11.250
+ventosa
+
+42
+00:02:11.250 --> 00:02:14.730
+y, por supuesto, soldar <font color="#E5E5E5">y soldar con un </font>
+
+43
+00:02:14.730 --> 00:02:17.520
+punto <font color="#E5E5E5">O </font><font color="#CCCCCC">dos </font><font color="#E5E5E5">pulgadas de diámetro es preferible </font>
+
+44
+00:02:17.520 --> 00:02:21.810
+<font color="#CCCCCC">Encuentro que la mayoría de los vicios de PCB son </font><font color="#E5E5E5">un poco inestables </font>
+
+45
+00:02:21.810 --> 00:02:25.170
+e inestable para soldadura SMD <font color="#E5E5E5">para </font>
+
+46
+00:02:25.170 --> 00:02:26.940
+mantener <font color="#E5E5E5">mi tablero en su lugar mientras trabajo I </font>
+
+47
+00:02:26.940 --> 00:02:29.910
+puede usar cinta de algunos pintores <font color="#E5E5E5">para asegurarlo </font>
+
+48
+00:02:29.910 --> 00:02:32.580
+a <font color="#CCCCCC">la mesa </font><font color="#E5E5E5">comenzaremos con el </font>
+
+49
+00:02:32.580 --> 00:02:34.560
+partes más pequeñas y trabajar <font color="#CCCCCC">hasta llegar </font>
+
+50
+00:02:34.560 --> 00:02:38.160
+por lo que las resistencias son lo primero - asegurar <font color="#CCCCCC">la </font>
+
+51
+00:02:38.160 --> 00:02:41.250
+<font color="#E5E5E5">parte de la placa de </font><font color="#CCCCCC">todo el primer estaño </font><font color="#E5E5E5">una almohadilla </font>
+
+52
+00:02:41.250 --> 00:02:46.050
+y usando pinzas <font color="#E5E5E5">deslice suavemente la </font>
+
+53
+00:02:46.050 --> 00:02:50.550
+resistor en <font color="#E5E5E5">su lugar y virar </font><font color="#CCCCCC">hacia abajo </font><font color="#E5E5E5">ahora </font>
+
+54
+00:02:50.550 --> 00:02:53.130
+Puedo soldar la almohadilla restante y luego
+
+55
+00:02:53.130 --> 00:02:56.070
+Asegúrate ese primero con un poco más
+
+56
+00:02:56.070 --> 00:03:00.030
+<font color="#E5E5E5">Soldar según sea necesario Voy a usar </font><font color="#CCCCCC">este mismo </font>
+
+57
+00:03:00.030 --> 00:03:02.220
+<font color="#E5E5E5">proceso básico para el resto de mis dos </font>
+
+58
+00:03:02.220 --> 00:03:05.450
+componentes terminales
+
+59
+00:03:35.819 --> 00:03:38.970
+al <font color="#CCCCCC">soldar ICS con muchos pequeños alfileres </font>
+
+60
+00:03:38.970 --> 00:03:42.940
+<font color="#CCCCCC">la alineación </font><font color="#E5E5E5">es crucial primero obtener el básico </font>
+
+61
+00:03:42.940 --> 00:03:45.519
+orientación del <font color="#CCCCCC">IC </font><font color="#E5E5E5">usando </font><font color="#CCCCCC">un indicador </font>
+
+62
+00:03:45.519 --> 00:03:49.780
+punto en la parte superior y luego <font color="#E5E5E5">ancle el primer pin a </font>
+
+63
+00:03:49.780 --> 00:03:51.489
+el tablero <font color="#E5E5E5">con solo un </font><font color="#CCCCCC">poco </font><font color="#E5E5E5">de </font>
+
+64
+00:03:51.489 --> 00:03:59.170
+salsa ahora <font color="#CCCCCC">puedo fácilmente hacer bien </font>
+
+65
+00:03:59.170 --> 00:04:01.299
+ajustes a la posición de los chips mientras
+
+66
+00:04:01.299 --> 00:04:05.200
+rehumedeciendo ese <font color="#CCCCCC">punto de </font><font color="#E5E5E5">anclaje </font><font color="#CCCCCC">y una vez </font>
+
+67
+00:04:05.200 --> 00:04:07.810
+está bien cuadrada <font color="#CCCCCC">voy a soldar el </font>
+
+68
+00:04:07.810 --> 00:04:10.060
+pin <font color="#E5E5E5">diagonalmente opuesto al primero </font>
+
+69
+00:04:10.060 --> 00:04:14.500
+para finalizar el puesto para <font color="#E5E5E5">el </font>
+
+70
+00:04:14.500 --> 00:04:17.380
+<font color="#E5E5E5">pines restantes </font><font color="#CCCCCC">su primer instinto puede </font>
+
+71
+00:04:17.380 --> 00:04:20.410
+ser para evitar que sea un buen puente
+
+72
+00:04:20.410 --> 00:04:23.229
+instinto pero comenzaremos haciendo
+
+73
+00:04:23.229 --> 00:04:27.010
+<font color="#CCCCCC">exactamente eso </font><font color="#E5E5E5">arrastrando suavemente la plancha </font>
+
+74
+00:04:27.010 --> 00:04:31.000
+<font color="#E5E5E5">y soldadura todo el camino porque </font>
+
+75
+00:04:31.000 --> 00:04:33.580
+<font color="#CCCCCC">la placa está </font><font color="#E5E5E5">cubierta con una máscara de soldadura </font><font color="#CCCCCC">que </font>
+
+76
+00:04:33.580 --> 00:04:36.510
+<font color="#E5E5E5">puede eliminar fácilmente el exceso de soldadura </font><font color="#CCCCCC">I </font>
+
+77
+00:04:36.510 --> 00:04:39.550
+me gusta usar <font color="#CCCCCC">una ventosa de soldadura </font><font color="#E5E5E5">para esto </font>
+
+78
+00:04:39.550 --> 00:04:45.960
+simplemente cebar la bomba <font color="#E5E5E5">calentar la soldadura y </font>
+
+79
+00:04:45.960 --> 00:04:48.739
+<font color="#E5E5E5">retirar </font>
+
+80
+00:04:48.739 --> 00:04:53.969
+voila <font color="#E5E5E5">pero también podrías usar soldadura fina </font>
+
+81
+00:04:53.969 --> 00:04:57.989
+la mecha <font color="#E5E5E5">simplemente pone la mecha a través de los pernos </font>
+
+82
+00:04:57.989 --> 00:05:00.719
+<font color="#E5E5E5">y calentarlo con el </font><font color="#CCCCCC">lado de la plancha </font>
+
+83
+00:05:00.719 --> 00:05:03.629
+propina hasta que <font color="#E5E5E5">se tire </font><font color="#CCCCCC">todo </font><font color="#E5E5E5">el exceso </font>
+
+84
+00:05:03.629 --> 00:05:06.529
+fuera <font color="#E5E5E5">del tablero </font>
+
+85
+00:05:13.530 --> 00:05:16.180
+una vez que todos los pines se limpian <font color="#CCCCCC">puedo </font>
+
+86
+00:05:16.180 --> 00:05:18.040
+<font color="#E5E5E5">verificar si </font><font color="#CCCCCC">hay puentes pequeños </font>
+
+87
+00:05:18.040 --> 00:05:22.000
+<font color="#E5E5E5">usando mi lupa la misma estrategia </font>
+
+88
+00:05:22.000 --> 00:05:24.490
+se aplica a las fichas con pines en los cuatro
+
+89
+00:05:24.490 --> 00:05:26.590
+lados <font color="#CCCCCC">solo </font><font color="#E5E5E5">asegúrese </font><font color="#CCCCCC">de pagar cerca </font>
+
+90
+00:05:26.590 --> 00:05:29.710
+<font color="#CCCCCC">atención </font><font color="#E5E5E5">a la alineación de pin a pad en todos </font>
+
+91
+00:05:29.710 --> 00:05:33.030
+cuatro de esos lados
+
+92
+00:05:49.380 --> 00:05:51.850
+soldar un chip sin <font color="#E5E5E5">sobresalir </font>
+
+93
+00:05:51.850 --> 00:05:54.220
+las pistas <font color="#E5E5E5">pueden parecer un poco intimidantes al principio </font>
+
+94
+00:05:54.220 --> 00:05:57.070
+<font color="#CCCCCC">pero de nuevo el mismo enfoque básico </font>
+
+95
+00:05:57.070 --> 00:06:00.070
+<font color="#E5E5E5">aplica aquí la principal diferencia es que </font>
+
+96
+00:06:00.070 --> 00:06:02.500
+anclando <font color="#E5E5E5">ese primer pin puede ser un poco </font>
+
+97
+00:06:02.500 --> 00:06:05.280
+más <font color="#CCCCCC">desafiante </font>
+
+98
+00:06:23.560 --> 00:06:25.639
+una vez que esos componentes más pequeños son
+
+99
+00:06:25.639 --> 00:06:28.160
+terminado de <font color="#E5E5E5">soldar las piezas más grandes como </font>
+
+100
+00:06:28.160 --> 00:06:31.430
+<font color="#CCCCCC">jacks e interruptores es una </font><font color="#E5E5E5">caminata </font><font color="#CCCCCC">relativa </font><font color="#E5E5E5">en </font>
+
+101
+00:06:31.430 --> 00:06:33.759
+el <font color="#E5E5E5">parque </font>
+
+102
+00:07:14.770 --> 00:07:16.120
+<font color="#E5E5E5">bueno </font>
+
+103
+00:07:16.120 --> 00:07:19.520
+todo parece <font color="#E5E5E5">estar </font><font color="#CCCCCC">en orden </font><font color="#E5E5E5">en mi </font>
+
+104
+00:07:19.520 --> 00:07:24.050
+<font color="#E5E5E5">metro hecho a mano aquí solo voy a aplicar </font>
+
+105
+00:07:24.050 --> 00:07:28.760
+poder y ver que de hecho <font color="#E5E5E5">funciona </font>
+
+106
+00:07:28.760 --> 00:07:33.860
+como era de esperar <font color="#E5E5E5">no estoy sorprendido de </font><font color="#CCCCCC">que no lo haga </font>
+
+107
+00:07:33.860 --> 00:07:36.130
+<font color="#CCCCCC">cometer errores </font>
+
+108
+00:07:36.190 --> 00:07:38.600
+después de que te hayas acostumbrado <font color="#E5E5E5">a la escala de </font>
+
+109
+00:07:38.600 --> 00:07:40.760
+montaje en superficie soldando el proceso es
+
+110
+00:07:40.760 --> 00:07:42.980
+bastante <font color="#CCCCCC">sencillo simplemente </font><font color="#E5E5E5">asegúrese de </font>
+
+111
+00:07:42.980 --> 00:07:46.240
+<font color="#CCCCCC">usa las herramientas adecuadas con </font><font color="#E5E5E5">una mano firme y </font>
+
+112
+00:07:46.240 --> 00:07:50.090
+tener paciencia <font color="#E5E5E5">, en realidad es bastante </font>
+
+113
+00:07:50.090 --> 00:00:00.000
+relajante
+

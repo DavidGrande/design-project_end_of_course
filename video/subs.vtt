@@ -1,0 +1,454 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:01.979
+when<font color="#E5E5E5"> building electronics by hand</font><font color="#CCCCCC"> we</font>
+
+2
+00:00:01.979 --> 00:00:04.589
+<font color="#E5E5E5">usually use through-hole components</font>
+
+3
+00:00:04.589 --> 00:00:07.200
+these<font color="#E5E5E5"> are relatively large and easy to</font>
+
+4
+00:00:07.200 --> 00:00:10.349
+<font color="#CCCCCC">handle</font><font color="#E5E5E5"> but when a machine builds</font>
+
+5
+00:00:10.349 --> 00:00:13.320
+electronics<font color="#E5E5E5"> it uses surface mount</font>
+
+6
+00:00:13.320 --> 00:00:16.650
+components<font color="#CCCCCC"> at first glance</font><font color="#E5E5E5"> these may</font>
+
+7
+00:00:16.650 --> 00:00:18.359
+<font color="#CCCCCC">seem a bit unmanageable</font>
+
+8
+00:00:18.359 --> 00:00:20.580
+to the human<font color="#E5E5E5"> hand but with</font><font color="#CCCCCC"> little</font>
+
+9
+00:00:20.580 --> 00:00:24.000
+patience and<font color="#E5E5E5"> magnification you too can</font>
+
+10
+00:00:24.000 --> 00:00:27.289
+work like a machine
+
+11
+00:00:35.480 --> 00:00:39.989
+SMD<font color="#E5E5E5"> or surface mount devices can</font><font color="#CCCCCC"> be a</font>
+
+12
+00:00:39.989 --> 00:00:43.020
+bit tricky<font color="#CCCCCC"> to solder but doing so will</font>
+
+13
+00:00:43.020 --> 00:00:44.969
+allow you<font color="#E5E5E5"> to use a lot of technology</font>
+
+14
+00:00:44.969 --> 00:00:47.070
+that's not<font color="#CCCCCC"> available in through-hole</font>
+
+15
+00:00:47.070 --> 00:00:49.800
+packages<font color="#E5E5E5"> you can also save quite a bit</font>
+
+16
+00:00:49.800 --> 00:00:53.280
+of space<font color="#E5E5E5"> on board design so the most</font>
+
+17
+00:00:53.280 --> 00:00:55.289
+obvious variable we're dealing with<font color="#E5E5E5"> here</font>
+
+18
+00:00:55.289 --> 00:00:58.079
+<font color="#CCCCCC">is size common passive components like</font>
+
+19
+00:00:58.079 --> 00:01:00.750
+resistors and capacitors<font color="#E5E5E5"> come in a range</font>
+
+20
+00:01:00.750 --> 00:01:04.500
+<font color="#E5E5E5">of sizes from</font><font color="#CCCCCC"> the relatively large 1206</font>
+
+21
+00:01:04.500 --> 00:01:07.650
+<font color="#E5E5E5">spec on down to the blinkin you might</font>
+
+22
+00:01:07.650 --> 00:01:12.680
+miss<font color="#E5E5E5"> it Oh 402 size and even smaller</font>
+
+23
+00:01:12.680 --> 00:01:15.600
+<font color="#E5E5E5">surface mount ICS come in a variety of</font>
+
+24
+00:01:15.600 --> 00:01:20.340
+<font color="#E5E5E5">packages like this</font><font color="#CCCCCC"> here s o</font><font color="#E5E5E5"> IC chip or</font>
+
+25
+00:01:20.340 --> 00:01:27.540
+this<font color="#CCCCCC"> QFP chip or even this little SOT</font>
+
+26
+00:01:27.540 --> 00:01:29.540
+transistor
+
+27
+00:01:29.540 --> 00:01:32.369
+these all have protruding leads<font color="#E5E5E5"> but</font>
+
+28
+00:01:32.369 --> 00:01:34.770
+you'll also find IC packages which only
+
+29
+00:01:34.770 --> 00:01:38.490
+expose flat contacts<font color="#E5E5E5"> like this</font><font color="#CCCCCC"> qfn chip</font>
+
+30
+00:01:38.490 --> 00:01:41.189
+these can<font color="#CCCCCC"> actually be a bit easier to</font>
+
+31
+00:01:41.189 --> 00:01:43.170
+<font color="#CCCCCC">handle</font><font color="#E5E5E5"> as they have no pins to bend</font>
+
+32
+00:01:43.170 --> 00:01:44.580
+<font color="#E5E5E5">accidentally</font>
+
+33
+00:01:44.580 --> 00:01:46.920
+so how do we<font color="#E5E5E5"> get these little things</font>
+
+34
+00:01:46.920 --> 00:01:51.120
+soldered securely to a PCB<font color="#E5E5E5"> well first we</font>
+
+35
+00:01:51.120 --> 00:01:52.860
+need<font color="#CCCCCC"> the right tools</font><font color="#E5E5E5"> for the job</font>
+
+36
+00:01:52.860 --> 00:01:57.600
+a good iron with a fine point tip and a
+
+37
+00:01:57.600 --> 00:02:00.390
+sponge or mesh for cleaning it fine
+
+38
+00:02:00.390 --> 00:02:02.400
+point tweezers<font color="#CCCCCC"> I like to have both</font>
+
+39
+00:02:02.400 --> 00:02:06.300
+angled<font color="#E5E5E5"> and straight variants</font><font color="#CCCCCC"> a magnifier</font>
+
+40
+00:02:06.300 --> 00:02:10.500
+loop or a visor<font color="#E5E5E5"> solder wick solder</font>
+
+41
+00:02:10.500 --> 00:02:11.250
+sucker
+
+42
+00:02:11.250 --> 00:02:14.730
+and of course solder<font color="#E5E5E5"> then solder with a</font>
+
+43
+00:02:14.730 --> 00:02:17.520
+point<font color="#E5E5E5"> O</font><font color="#CCCCCC"> two</font><font color="#E5E5E5"> inch diameter is preferable</font>
+
+44
+00:02:17.520 --> 00:02:21.810
+<font color="#CCCCCC">I find most PCB vices</font><font color="#E5E5E5"> a bit too shaky</font>
+
+45
+00:02:21.810 --> 00:02:25.170
+and unstable for SMD soldering<font color="#E5E5E5"> so to</font>
+
+46
+00:02:25.170 --> 00:02:26.940
+keep<font color="#E5E5E5"> my board in place while working I</font>
+
+47
+00:02:26.940 --> 00:02:29.910
+can use some painters tape<font color="#E5E5E5"> to secure it</font>
+
+48
+00:02:29.910 --> 00:02:32.580
+to<font color="#CCCCCC"> the tabletop</font><font color="#E5E5E5"> we'll start with the</font>
+
+49
+00:02:32.580 --> 00:02:34.560
+smallest parts and work our<font color="#CCCCCC"> way up</font>
+
+50
+00:02:34.560 --> 00:02:38.160
+so resistors come first - secure<font color="#CCCCCC"> the</font>
+
+51
+00:02:38.160 --> 00:02:41.250
+<font color="#E5E5E5">part to the board</font><font color="#CCCCCC"> all first tin</font><font color="#E5E5E5"> one pad</font>
+
+52
+00:02:41.250 --> 00:02:46.050
+and using tweezers<font color="#E5E5E5"> gently slide the</font>
+
+53
+00:02:46.050 --> 00:02:50.550
+resistor into<font color="#E5E5E5"> place and tack</font><font color="#CCCCCC"> it down</font><font color="#E5E5E5"> now</font>
+
+54
+00:02:50.550 --> 00:02:53.130
+I can solder the remaining pad and then
+
+55
+00:02:53.130 --> 00:02:56.070
+secure that first one with a bit more
+
+56
+00:02:56.070 --> 00:03:00.030
+<font color="#E5E5E5">solder as needed I'll use</font><font color="#CCCCCC"> this same</font>
+
+57
+00:03:00.030 --> 00:03:02.220
+basic<font color="#E5E5E5"> process for the rest of my two</font>
+
+58
+00:03:02.220 --> 00:03:05.450
+terminal components
+
+59
+00:03:35.819 --> 00:03:38.970
+when<font color="#CCCCCC"> soldering ICS with many small pins</font>
+
+60
+00:03:38.970 --> 00:03:42.940
+<font color="#CCCCCC">alignment</font><font color="#E5E5E5"> is crucial first get the basic</font>
+
+61
+00:03:42.940 --> 00:03:45.519
+orientation of the<font color="#CCCCCC"> IC</font><font color="#E5E5E5"> using</font><font color="#CCCCCC"> an indicator</font>
+
+62
+00:03:45.519 --> 00:03:49.780
+dot on top then<font color="#E5E5E5"> anchor the first pin to</font>
+
+63
+00:03:49.780 --> 00:03:51.489
+the board<font color="#E5E5E5"> with just a</font><font color="#CCCCCC"> little</font><font color="#E5E5E5"> bit of</font>
+
+64
+00:03:51.489 --> 00:03:59.170
+sauce now<font color="#CCCCCC"> I can easily make fine</font>
+
+65
+00:03:59.170 --> 00:04:01.299
+adjustments to the chips position while
+
+66
+00:04:01.299 --> 00:04:05.200
+rewetting that<font color="#E5E5E5"> anchor</font><font color="#CCCCCC"> point and once</font>
+
+67
+00:04:05.200 --> 00:04:07.810
+it's nicely squared up<font color="#CCCCCC"> I'll solder the</font>
+
+68
+00:04:07.810 --> 00:04:10.060
+pin<font color="#E5E5E5"> diagonally opposite that first one</font>
+
+69
+00:04:10.060 --> 00:04:14.500
+to finalize the position for<font color="#E5E5E5"> the</font>
+
+70
+00:04:14.500 --> 00:04:17.380
+<font color="#E5E5E5">remaining pins</font><font color="#CCCCCC"> your first instinct may</font>
+
+71
+00:04:17.380 --> 00:04:20.410
+be to avoid bridging that's a good
+
+72
+00:04:20.410 --> 00:04:23.229
+instinct but we'll start by doing
+
+73
+00:04:23.229 --> 00:04:27.010
+<font color="#CCCCCC">exactly that</font><font color="#E5E5E5"> by gently dragging the iron</font>
+
+74
+00:04:27.010 --> 00:04:31.000
+<font color="#E5E5E5">and soldering all the way across because</font>
+
+75
+00:04:31.000 --> 00:04:33.580
+<font color="#CCCCCC">the board is</font><font color="#E5E5E5"> coated with solder mask</font><font color="#CCCCCC"> we</font>
+
+76
+00:04:33.580 --> 00:04:36.510
+<font color="#E5E5E5">can easily remove the excess solder</font><font color="#CCCCCC"> I</font>
+
+77
+00:04:36.510 --> 00:04:39.550
+like to use<font color="#CCCCCC"> a solder sucker</font><font color="#E5E5E5"> for this</font>
+
+78
+00:04:39.550 --> 00:04:45.960
+just prime the pump<font color="#E5E5E5"> heat the solder and</font>
+
+79
+00:04:45.960 --> 00:04:48.739
+<font color="#E5E5E5">remove</font>
+
+80
+00:04:48.739 --> 00:04:53.969
+voila<font color="#E5E5E5"> but you could also use thin solder</font>
+
+81
+00:04:53.969 --> 00:04:57.989
+wick<font color="#E5E5E5"> just lay the wick across the pins</font>
+
+82
+00:04:57.989 --> 00:05:00.719
+<font color="#E5E5E5">and heat it with the</font><font color="#CCCCCC"> side of the iron</font>
+
+83
+00:05:00.719 --> 00:05:03.629
+tip until<font color="#CCCCCC"> all of</font><font color="#E5E5E5"> the excess is pulled</font>
+
+84
+00:05:03.629 --> 00:05:06.529
+off<font color="#E5E5E5"> of the board</font>
+
+85
+00:05:13.530 --> 00:05:16.180
+once all the pins are cleaned up<font color="#CCCCCC"> I can</font>
+
+86
+00:05:16.180 --> 00:05:18.040
+<font color="#E5E5E5">check for</font><font color="#CCCCCC"> any tiny remaining bridges</font>
+
+87
+00:05:18.040 --> 00:05:22.000
+<font color="#E5E5E5">using my magnifier the same strategy</font>
+
+88
+00:05:22.000 --> 00:05:24.490
+applies to chips with pins on all four
+
+89
+00:05:24.490 --> 00:05:26.590
+sides<font color="#CCCCCC"> just</font><font color="#E5E5E5"> be sure</font><font color="#CCCCCC"> to pay close</font>
+
+90
+00:05:26.590 --> 00:05:29.710
+<font color="#CCCCCC">attention</font><font color="#E5E5E5"> to pin to pad alignment on all</font>
+
+91
+00:05:29.710 --> 00:05:33.030
+four of those sides
+
+92
+00:05:49.380 --> 00:05:51.850
+soldering a chip with no<font color="#E5E5E5"> protruding</font>
+
+93
+00:05:51.850 --> 00:05:54.220
+leads<font color="#E5E5E5"> may seem a bit daunting at first</font>
+
+94
+00:05:54.220 --> 00:05:57.070
+<font color="#CCCCCC">but again the same basic approach</font>
+
+95
+00:05:57.070 --> 00:06:00.070
+<font color="#E5E5E5">applies here the main difference is that</font>
+
+96
+00:06:00.070 --> 00:06:02.500
+anchoring<font color="#E5E5E5"> that first pin may be a bit</font>
+
+97
+00:06:02.500 --> 00:06:05.280
+more<font color="#CCCCCC"> challenging</font>
+
+98
+00:06:23.560 --> 00:06:25.639
+once those smaller components are
+
+99
+00:06:25.639 --> 00:06:28.160
+finished<font color="#E5E5E5"> soldering the larger parts like</font>
+
+100
+00:06:28.160 --> 00:06:31.430
+<font color="#CCCCCC">jacks and switches is a relative</font><font color="#E5E5E5"> walk in</font>
+
+101
+00:06:31.430 --> 00:06:33.759
+the<font color="#E5E5E5"> park</font>
+
+102
+00:07:14.770 --> 00:07:16.120
+<font color="#E5E5E5">okay</font>
+
+103
+00:07:16.120 --> 00:07:19.520
+everything appears to<font color="#E5E5E5"> be</font><font color="#CCCCCC"> in order</font><font color="#E5E5E5"> on my</font>
+
+104
+00:07:19.520 --> 00:07:24.050
+<font color="#E5E5E5">handmade Metro here I'll just apply</font>
+
+105
+00:07:24.050 --> 00:07:28.760
+power and see that it does in fact<font color="#E5E5E5"> work</font>
+
+106
+00:07:28.760 --> 00:07:33.860
+as expected<font color="#E5E5E5"> I'm not surprised</font><font color="#CCCCCC"> I don't</font>
+
+107
+00:07:33.860 --> 00:07:36.130
+<font color="#CCCCCC">make mistakes</font>
+
+108
+00:07:36.190 --> 00:07:38.600
+after you get accustomed<font color="#E5E5E5"> to the scale of</font>
+
+109
+00:07:38.600 --> 00:07:40.760
+surface mount soldering the process is
+
+110
+00:07:40.760 --> 00:07:42.980
+pretty<font color="#CCCCCC"> straightforward just be</font><font color="#E5E5E5"> sure to</font>
+
+111
+00:07:42.980 --> 00:07:46.240
+<font color="#CCCCCC">use the right tools</font><font color="#E5E5E5"> a steady hand and</font>
+
+112
+00:07:46.240 --> 00:07:50.090
+have patience<font color="#E5E5E5"> it's actually quite</font>
+
+113
+00:07:50.090 --> 00:00:00.000
+relaxing
+

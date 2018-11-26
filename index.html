@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png"/>
+	<title>Maker ~ David Grande</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="css/style-mediaQueries.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="menu-btn" checked="unchecked" />
+		<label class="btn" for="menu-btn">
+			<span>
+				<p><br></p>
+				<p><br></p>
+				<p><br></p>
+			</span>
+			<ul>
+				<li><a href="#datos-personales">Datos personales</a></li>
+				<li><a href="#apps-web">Apps Web</a></li>
+				<li><a href="#conocimientos">Conocimientos</a></li>
+				<li><a href="#conoceme">Conóceme</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</label>
+		<p>MAKER</p>
+	</nav>
+	<header id="header-primary">
+		<div>
+			<span>MAKER</span>
+			<span></span>
+		</div>
+	</header>
+	<main>
+		<section id="datos-personales">
+			<article>
+				<header>
+					<img src="img/DavidMaker.jpg" alt="">
+					<h1>Hola, soy David y soy maker</h1>
+				</header>
+				<h2>Estudié:</h2>
+				<section id="estudios">
+					<div class="estudio">
+						<p>Sistemas microinformáticos y redes</p>
+						<img src="img/smr.jpg" alt="">
+					</div>
+					<div class="estudio">
+						<p>Desarrollo de aplicaciones web</p>
+						<img src="img/daw.png" alt="">
+					</div>
+				</section>
+				<h2>Trabajé en:</h2>
+				<section id ="trabajos">
+					<div>
+						<h3>SofyCon</h3>
+						<p>Becario en el puesto de Técnico microinformático y redes</p>
+						<img src="img/sofycon.png" alt="">
+					</div>
+					<div>
+						<h3>IKEA</h3>
+						<p>Becario en el puesto de Técnico microinformático y redes</p>
+						<img src="img/IKEA.jpeg" alt="">
+					</div>
+				</section>
+			</article>
+		</section>
+		<section id="apps-web">
+			<article>
+				<header>
+					<h2>Canvas</h2>
+					<p>Comecocos realizado con Canvas y Javascript</p>
+				</header>
+				<input type="checkbox" id="pacmanClick"/>
+				<label for="pacmanClick">
+					<div>
+						<img src="img/pacman.gif" alt="">
+					</div>
+					<div>
+						<iframe title="Pacman con Canvas" src="pacman/index.html"></iframe>
+					</div>
+				</label>
+			</article>
+			<article>
+				<header>
+					<h2>Pico 8</h2>
+					<p>Wario Land 3 remake con PICO-8</p>
+				</header>
+				<input type="checkbox" id="warioClick"/>
+				<label class="btn" for="warioClick">
+					<div>
+						<img src="img/wariobros.png" alt="">
+					</div>
+					<div>
+						<iframe title="Juego wariobros pico-8" src="wariobros/wariobros-responsive.html"></iframe>
+					</div>
+				</label>
+			</article>
+			<article>
+				<header>
+					<h2>Bootstrap 4</h2>
+					<p>Página realizada con Bootstrap 4</p>
+				</header>
+				<input type="checkbox" id="bootstrapClick"/>
+				<label class="btn" for="bootstrapClick">
+					<div>
+						<img src="img/bootstrap.png" alt="">
+					</div>
+					<div>
+						<iframe title="Página de bootstrap" src="bootstrap/juego.html"></iframe>
+					</div>
+				</label>
+			</article>
+		</section>
+		<section id="conocimientos">
+			<article>
+				<div><h2>Programación</h2></div>
+				<div>
+					<div>
+						<p>Java</p>
+						<span class="progressBar">80%</span>
+					</div>
+					<div>
+						<p>Php</p>
+						<span class="progressBar">60%</span>
+					</div>
+					<div>
+						<p>Python</p>
+						<span class="progressBar">30%</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div><h2>IOT</h2></div>
+				<div>
+					<div>
+						<p>Arduino</p>
+						<span class="progressBar">90%</span>
+					</div>
+					<div>
+						<p>Android</p>
+						<span class="progressBar">70%</span>
+					</div>
+					<div>
+						<p>Electrónica</p>
+						<span class="progressBar">40%</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div><h2>Diseño</h2></div>
+				<div>
+					<div>
+						<p>HTML5</p>
+						<span class="progressBar">100%</span>
+					</div>
+					<div>
+						<p>CSS3</p>
+						<span class="progressBar">70%</span>
+					</div>
+					<div>
+						<p>JavaScript</p>
+						<span class="progressBar">60%</span>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section id="conoceme">
+			<input type="checkbox" id="btn-video">
+			<label for="btn-video"><span>Ver video</span><span>Ocultar video</span></label>
+			<video autoplay muted loop class="video-fondo">
+  				<source src="video/trozo-clase-magistral.mp4" type="video/mp4">
+  				<source src="video/trozo-clase-magistral.ogg" type="video/ogg">
+			</video>
+			<video class="video-principal" controls>
+				<source src="video/clase-magistral.mp4" type="video/mp4">
+				<source src="video/clase-magistral.ogv" type="video/ogg">
+				<track label="Español" kind="subtitles" srclang="es" src="video/subs-esp.vtt">
+				<track label="English" kind="subtitles" srclang="en" src="video/subs.vtt" default>
+			</video>
+			<div>
+				<h2>Electrónica y Arduino</h2>
+				<p>Así gasto mi tiempo libre, con creatividad y entusiasmo</p>
+			</div>
+		</section>
+		<section id="contacto">
+			<div>
+				<img src="img/foto_contacto.jpg" alt="" />
+			</div>
+			<article>
+				<h2>¡Contacta conmigo!</h2>
+				<form name="contactForm">
+
+					<label for="nombre">Nombre</label>
+					<input id="nombre" maxlength="20" name="nombre" placeholder="Nombre" type="text" tabindex="1" accesskey="n">
+
+					<label for="empresa">Empresa (Opcional)</label>
+					<input id="empresa" maxlength="20" name="empresa" placeholder="Empresa (Opcional)" type="text" tabindex="2" accesskey="e">
+
+					<label for="asunto">Asunto</label>
+					<input id="asunto" maxlength="30" name="asunto" placeholder="Asunto" type="text" tabindex="3" accesskey="a">
+
+					<label for="mensaje">Escribe tu mensaje</label>
+					<textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..." tabindex="4"  accesskey="m"></textarea> 
+					
+					<input id="enviar" value="Enviar" type="submit">
+				</form>
+				</article>
+		</section>
+	</main>
+	<footer>
+		<p>@Copyright 2018 - David Grande Troncoso</p>
+	</footer>
+</body>
+</html>
